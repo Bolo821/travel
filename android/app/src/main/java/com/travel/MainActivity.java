@@ -1,4 +1,4 @@
-package com.travel;
+package com.travel.bolo;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;

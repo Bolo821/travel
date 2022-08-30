@@ -1,4 +1,4 @@
-package com.travel.newarchitecture;
+package com.travel.bolo.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.travel.BuildConfig;
-import com.travel.newarchitecture.components.MainComponentsRegistry;
-import com.travel.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.travel.bolo.BuildConfig;
+import com.travel.bolo.newarchitecture.components.MainComponentsRegistry;
+import com.travel.bolo.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

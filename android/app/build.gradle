@@ -135,7 +135,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.travel"
+        applicationId "com.travel.bolo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -223,6 +223,12 @@ android {
         }
     }
     signingConfigs {
+        release {
+            storeFile file('bolo.keystore')
+            storePassword 'bolo.js327764'
+            keyAlias 'bolo'
+            keyPassword 'bolo.js327764'
+        }
         debug {
             storeFile file('debug.keystore')
             storePassword 'android'
@@ -237,7 +243,7 @@ android {
         release {
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }

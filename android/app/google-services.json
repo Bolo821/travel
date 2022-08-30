@@ -1,41 +1,70 @@
 {
   "project_info": {
-    "project_number": "996774138663",
-    "project_id": "react-native-travel-app-a6d02",
-    "storage_bucket": "react-native-travel-app-a6d02.appspot.com"
+    "project_number": "42162750926",
+    "project_id": "travel-55b3a",
+    "storage_bucket": "travel-55b3a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:996774138663:android:1a22b12dd3216053d88f02",
+        "mobilesdk_app_id": "1:42162750926:android:9f2ffc3ed6b9e31e8ad79f",
         "android_client_info": {
-          "package_name": "com.travel"
+          "package_name": "com.travel.bolo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "996774138663-gv3bkocn75n85krcojpr1h9psuoo0pb6.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.travel",
-            "certificate_hash": "91fb188eb6df66732f91140f938b899d30e31f69"
-          }
-        },
-        {
-          "client_id": "996774138663-6fkr29thvppia0oofuq13g630mmo4kfb.apps.googleusercontent.com",
+          "client_id": "42162750926-810mvvcp1pnfnd4cst7sab4n5008q40l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAvZAjicHD7KCAwX4sYblJ3l-5GIEkdNgs"
+          "current_key": "AIzaSyCdHAQUrlijEGWoxTJwUZ6oE2VJyIDDq68"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "996774138663-6fkr29thvppia0oofuq13g630mmo4kfb.apps.googleusercontent.com",
+              "client_id": "42162750926-810mvvcp1pnfnd4cst7sab4n5008q40l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42162750926:android:d7aec94a950438168ad79f",
+        "android_client_info": {
+          "package_name": "com.travel.bolo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42162750926-oun5vji094gbvlopl6ul7h34jt1hvpsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.travel.bolo",
+            "certificate_hash": "91fb188eb6df66732f91140f938b899d30e31f69"
+          }
+        },
+        {
+          "client_id": "42162750926-810mvvcp1pnfnd4cst7sab4n5008q40l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdHAQUrlijEGWoxTJwUZ6oE2VJyIDDq68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42162750926-810mvvcp1pnfnd4cst7sab4n5008q40l.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
